@@ -1,0 +1,19 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h4>
+      Click on the button to generate some data!
+    </h4>
+    <button ng-click="getRandomVehicle()" class="btn btn-primary pull-right">Show me a vehicle!</button>
+  </div>
+  <div class="panel-body">
+    <!-- show data here -->
+    <ul ng-show="data">
+      <li>Name: {{data.name}}</li>
+      <li>Manufacturer: {{data.manufacturer}}</li>
+      <li>Model: {{data.model}}</li>
+      <li>Vehicle Class: {{data.vehicle_class}}</li>
+      <li>Length: {{data.length}}</li>
+      <li>Passengers: {{data.passengers}}</li>
+    </ul>
+  </div>
+</div>
