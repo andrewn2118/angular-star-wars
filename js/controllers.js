@@ -36,7 +36,6 @@ angular.module('starWarsApp').controller('PlanetsController', planetsController)
     };
   }
 
-// SELF ATTEMPT
 angular.module('starWarsApp').controller('VehiclesController', vehiclesController);
 
   vehiclesController.$inject = ['$http', '$scope'];
